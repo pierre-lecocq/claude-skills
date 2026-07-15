@@ -64,3 +64,13 @@ List pull requests across configured GitHub repos relevant to a set of teams and
 ```sh
 npx skills add pierre-lecocq/claude-skills --skill=reviews-list -y
 ```
+
+## /rest-api-audit
+
+Audit the current REST API implementation against Postman's REST API best practices (https://blog.postman.com/rest-api-best-practices/) and report findings as a table with Severity, Priority, and a Complexity score to fix. Read-only — never edits code. Use when asked to "audit the API", "check REST best practices", "find API design issues", or "/rest-api-audit".
+
+**Install skill with**:
+
+```sh
+npx skills add pierre-lecocq/claude-skills --skill=rest-api-audit -y
+```
