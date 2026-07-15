@@ -1,0 +1,14 @@
+{
+  "github_host": "github.com",
+  "repos": [
+    "owner/repo"
+  ],
+  "org": "your-org",
+  "state": "open",
+  "teams": [
+    "your-team"
+  ],
+  "users": [
+    "your-username"
+  ]
+}

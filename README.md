@@ -51,3 +51,16 @@ Scan the codebase for actionable comment markers (`@TODO`, `@FIXME`, `@BUG`, `@H
 ```sh
 npx skills add pierre-lecocq/claude-skills --skill=todo-list -y
 ```
+
+## /reviews-list
+
+List pull requests across configured GitHub repos relevant to a set of teams and users (authored by a configured team member, a configured team requested as reviewer, assigned to a configured user, or authored by a configured user), as a single markdown table sorted by most recently updated.
+
+- **config file**: a user managed config file must be added in `.claude/skills/reviews-list/config.json` based on the example file from the same directory
+- **argument-hint**: `[state: open|closed|merged|all]` (default open)
+
+**Install skill with**:
+
+```sh
+npx skills add pierre-lecocq/claude-skills --skill=reviews-list -y
+```
