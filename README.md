@@ -42,6 +42,10 @@ List pull requests across configured GitHub repos relevant to a set of teams and
 
 Audit the current REST API implementation against Postman's REST API best practices (https://blog.postman.com/rest-api-best-practices/) and report findings as a table with Severity, Priority, and a Complexity score to fix. Read-only — never edits code. Use when asked to "audit the API", "check REST best practices", "find API design issues", or "/rest-api-audit".
 
+### /learn
+
+One-shot skill - given a topic to learn, interview the user (why, time available, current level), research the topic, then generate a self-contained local HTML/JS learning website with chapters and quizzes in a new folder named after the topic.
+
 ## Rules
 
 Unlike the skills above, files under [`rules/`](./rules/) aren't installed via `npx skills add` — they're not executable skills, just reference convention documents.
